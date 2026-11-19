@@ -133,11 +133,11 @@ The Power BI report contains two dashboard pages.
 
 ### Dashboard – Page 1
 
-![Olist Dashboard Page 1](powerbi/screenshots/dashboard_page_1.png)
+![Olist Dashboard Page 1](powerbi/screenshots/dashboard_page_1.png.png)
 
 ### Dashboard – Page 2
 
-![Olist Dashboard Page 2](powerbi/screenshots/dashboard_page_2.png)
+![Olist Dashboard Page 2](powerbi/screenshots/dashboard_page_2.png.png)
 
 **Power BI report:** [Olist_Ecommerce_Analytics.pbix](powerbi/Olist_Ecommerce_Analytics.pbix)
 
