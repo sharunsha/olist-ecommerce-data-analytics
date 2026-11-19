@@ -228,7 +228,7 @@ To reproduce the analysis, obtain the original Olist public dataset, prepare the
 
 Aspiring Data Analyst | Python | SQL | Excel | Power BI
 
-[GitHub](https://github.com/sharunsha) · [LinkedIn](https://linkedin.com/in/sharun-satheesh)
+[GitHub](https://github.com/sharunsha) · [LinkedIn](https://www.linkedin.com/in/sharunsatheesh/)
 
 ---
 
