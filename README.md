@@ -167,6 +167,7 @@ For the complete interpretation and limitations, see [Consolidated Business Insi
 | [Business Insights](docs/business_insights.md) | Consolidated findings from all six analysis areas |
 | [Data Dictionary](docs/data_dictionary.md) | Dataset and field documentation |
 | [Project Workflow](docs/project_workflow.md) | Project process and analytical workflow |
+| [Project Architecture](docs/project_architecture.md) | Mermaid diagram of project stages and reporting outputs |
 
 ## Repository Structure
 
@@ -199,7 +200,8 @@ olist-ecommerce-data-analytics/
 └── docs/
     ├── business_insights.md
     ├── data_dictionary.md
-    └── project_workflow.md
+    ├── project_workflow.md
+    └── project_architecture.md
 ```
 
 ## How to Explore the Project
