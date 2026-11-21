@@ -88,6 +88,30 @@ The original dataset contains approximately 100,000 orders and related customer,
 6. **Power BI Development:** Built interactive dashboards with KPIs, visualizations, slicers, and data models.
 7. **Business Insights:** Consolidated findings across six business analysis areas.
 
+## Project Architecture
+
+The diagram below shows how the project moves from raw e-commerce data through preparation and analysis into two parallel reporting outputs. Excel and Power BI are separate deliverables, not sequential steps.
+
+```mermaid
+flowchart TD
+    A["Olist Brazilian E-commerce Dataset<br/>9 related source tables"] --> B["Python — Data Understanding,<br/>Cleaning & Validation"]
+    B --> C["MySQL — Data Storage,<br/>SQL Analysis & Analytical Views"]
+    C --> D["Excel — PivotTables,<br/>Analytical Reports & Charts"]
+    C --> E["Power BI — Data Modeling,<br/>Power Query, DAX & Dashboards"]
+    D --> F["Consolidated Business Insights"]
+    E --> F
+
+    F --> G["Revenue & Business Performance"]
+    F --> H["Product & Category Performance"]
+    F --> I["Delivery & Logistics"]
+    F --> J["Customer Satisfaction"]
+    F --> K["Customer RFM Segmentation"]
+    F --> L["Seller Performance"]
+```
+
+*For the detailed architecture notes, see [Project Architecture](docs/project_architecture.md).*
+
+
 ## Business Analysis Areas
 
 ### 1. Revenue and Business Performance
