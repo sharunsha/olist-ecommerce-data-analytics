@@ -1,40 +1,44 @@
-# Power BI – Olist E-commerce Analytics
+# Power BI — Olist E-commerce Analytics
 
-## Overview
+This folder contains the Power BI report and its dashboard screenshots for the Olist E-commerce Data Analytics project.
 
-This folder contains the interactive Power BI report developed for the Olist E-commerce Data Analytics project.
+## Report
 
-The report uses data prepared and analyzed through Python and SQL to present business performance through interactive dashboards.
+**File:** [Olist_Ecommerce_Business_Performance.pbix](Olist_Ecommerce_Business_Performance.pbix)
 
-## Power BI Report
+The report contains two dashboard pages.
 
-**File:** `Olist_Ecommerce_Analytics.pbix`
+## Dashboard Preview
 
-The Power BI file contains two dashboard pages.
+### Page 1 — Business Performance Overview
 
-## Dashboard Pages
+<a href="screenshots/dashboard_page_1.png.png">
+  <img src="screenshots/dashboard_page_1.png.png" alt="Olist Power BI dashboard — business performance overview" width="100%"/>
+</a>
 
-### Page 1 – Business Performance Overview
-
-Focuses on overall e-commerce business performance, including:
-
+Focus areas:
 - Revenue and order performance
 - Product and category analysis
 - Key business performance indicators
 - Revenue trends and comparisons
 
-### Page 2 – Customer and Operational Analytics
+### Page 2 — Customer and Operational Analytics
 
-Focuses on customer and operational performance, including:
+<a href="screenshots/dashboard_page_2.png.png">
+  <img src="screenshots/dashboard_page_2.png.png" alt="Olist Power BI dashboard — customer and operational analytics" width="100%"/>
+</a>
 
+Focus areas:
 - Delivery and logistics performance
 - Customer satisfaction
 - Customer segmentation
 - Seller performance
 
+Select either screenshot to open the full-size image.
+
 ## Data Model
 
-The Power BI report uses the Olist analytical dataset, with data sourced from the following business entities:
+The report uses the Olist analytical dataset, with data sourced from these business entities:
 
 - Orders
 - Order Items
@@ -46,25 +50,16 @@ The Power BI report uses the Olist analytical dataset, with data sourced from th
 - Geolocation
 - Category Translation
 
-## Power BI Techniques Used
+## Power BI Techniques
 
 - Data modeling and table relationships
-- Power Query
-- Data transformation
-- DAX measures
-- Calculated KPIs
+- Power Query and data transformation
+- DAX measures and calculated KPIs
 - Interactive visualizations
 - Filters and slicers
 - Cross-filtering and drill-down analysis
 
-## Screenshots
-
-Dashboard screenshots are available in the `screenshots/` folder.
-
-- `dashboard_page_1.png`
-- `dashboard_page_2.png`
-
-## Tools Used
+## Tools
 
 - Microsoft Power BI Desktop
 - Power Query
