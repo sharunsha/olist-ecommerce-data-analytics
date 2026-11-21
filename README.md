@@ -1,14 +1,40 @@
-# Olist E-commerce Data Analytics Project
+# Olist E-commerce Data Analytics
 
-An end-to-end e-commerce data analytics project using **Python, MySQL, Excel, and Power BI** to explore business performance, customer behavior, product trends, delivery operations, customer satisfaction, and seller performance.
+An end-to-end analytics project using **Python, MySQL, Excel, and Power BI** to investigate business performance, product trends, delivery operations, customer satisfaction, customer behavior, and seller performance in the Olist Brazilian e-commerce dataset.
+
+<p align="center">
+  <strong>End-to-end workflow</strong><br/>
+  Python · MySQL · Excel · Power BI
+</p>
+
+## Dashboard Preview
+
+The Power BI report contains two pages. Select either screenshot to open the full-size image.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Page 1 — Business Performance Overview</strong><br/><br/>
+      <a href="powerbi/screenshots/dashboard_page_1.png.png">
+        <img src="powerbi/screenshots/dashboard_page_1.png.png" alt="Olist Power BI dashboard — business performance overview" width="100%"/>
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <strong>Page 2 — Customer and Operational Analytics</strong><br/><br/>
+      <a href="powerbi/screenshots/dashboard_page_2.png.png">
+        <img src="powerbi/screenshots/dashboard_page_2.png.png" alt="Olist Power BI dashboard — customer and operational analytics" width="100%"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+**[Open the Power BI folder](powerbi/README.md)** · **[View the PBIX report](powerbi/Olist_Ecommerce_Business_Performance.pbix)**
 
 ## Project Overview
 
-This project analyzes the Olist Brazilian E-commerce Public Dataset to identify business patterns and generate actionable insights from e-commerce transaction data.
+This project analyzes the Olist Brazilian E-commerce Public Dataset to identify business patterns and generate actionable insights from transaction data.
 
-The analysis covers the complete analytical workflow, including data inspection, cleaning, validation, SQL-based analysis, Excel reporting, and Power BI dashboard development.
-
-The objective is to demonstrate practical data analytics skills by transforming raw e-commerce data into structured analysis and business-focused insights.
+The work covers the analytical lifecycle: data inspection, cleaning, validation, SQL analysis, Excel reporting, dashboard development, and consolidation of business findings.
 
 ## Business Objectives
 
@@ -23,7 +49,7 @@ The objective is to demonstrate practical data analytics skills by transforming 
 
 **Source:** Olist Brazilian E-commerce Public Dataset.
 
-The project uses nine datasets:
+The project uses nine related datasets:
 
 - Customers
 - Orders
@@ -37,7 +63,7 @@ The project uses nine datasets:
 
 The original dataset contains approximately 100,000 orders and related customer, product, payment, seller, and review information.
 
-*Note: Raw dataset files are not included in this repository. Obtain the public dataset separately before reproducing the analysis.*
+> Raw dataset files are not included in this repository. Obtain the public dataset separately before reproducing the analysis.
 
 ## Technology Stack
 
@@ -54,9 +80,9 @@ The original dataset contains approximately 100,000 orders and related customer,
 
 ## Project Workflow
 
-1. **Data Understanding:** Inspected the source datasets, dimensions, data types, and relationships.
+1. **Data Understanding:** Inspected source datasets, dimensions, data types, and relationships.
 2. **Data Cleaning:** Identified missing values, duplicates, invalid records, and category inconsistencies using Python.
-3. **Database Preparation:** Loaded the datasets into MySQL and performed validation checks.
+3. **Database Preparation:** Loaded datasets into MySQL and performed validation checks.
 4. **SQL Analysis:** Created analytical queries and reusable views to investigate business performance.
 5. **Excel Analysis:** Developed analytical worksheets, summaries, and charts.
 6. **Power BI Development:** Built interactive dashboards with KPIs, visualizations, slicers, and data models.
@@ -127,22 +153,6 @@ The following findings are based on the completed analysis:
 
 For the complete interpretation and limitations, see [Consolidated Business Insights](docs/business_insights.md).
 
-## Power BI Dashboards
-
-The Power BI report contains two dashboard pages.
-
-### Dashboard – Page 1
-
-![Olist Dashboard Page 1](powerbi/screenshots/dashboard_page_1.png.png)
-
-### Dashboard – Page 2
-
-![Olist Dashboard Page 2](powerbi/screenshots/dashboard_page_2.png.png)
-
-**Power BI report:** [Olist_Ecommerce_Analytics.pbix](powerbi/Olist_Ecommerce_Analytics.pbix)
-
-Open the PBIX file using Microsoft Power BI Desktop.
-
 ## Project Files
 
 | Component | Description |
@@ -152,7 +162,8 @@ Open the PBIX file using Microsoft Power BI Desktop.
 | [MySQL](sql/README.md) | Database preparation, SQL queries, and analytical views |
 | [Excel](excel/README.md) | Excel analysis and reporting |
 | [Excel Workbook](excel/Olist_Excel_Analytics.xlsx) | Analytical worksheets and charts |
-| [Power BI](powerbi/README.md) | Dashboard documentation |
+| [Power BI](powerbi/README.md) | Dashboard documentation and screenshots |
+| [Power BI Report](powerbi/Olist_Ecommerce_Business_Performance.pbix) | Interactive Power BI report |
 | [Business Insights](docs/business_insights.md) | Consolidated findings from all six analysis areas |
 | [Data Dictionary](docs/data_dictionary.md) | Dataset and field documentation |
 | [Project Workflow](docs/project_workflow.md) | Project process and analytical workflow |
@@ -161,19 +172,14 @@ Open the PBIX file using Microsoft Power BI Desktop.
 
 ```text
 olist-ecommerce-data-analytics/
-│
 ├── README.md
-├── .gitignore
-│
 ├── data/
 │   └── README.md
-│
 ├── python/
 │   ├── notebooks/
 │   │   └── olist_ecommerce_data_analysis.ipynb
 │   ├── scripts/
 │   └── README.md
-│
 ├── sql/
 │   ├── table_creation/
 │   ├── data_import/
@@ -181,18 +187,15 @@ olist-ecommerce-data-analytics/
 │   ├── business_analysis/
 │   ├── views/
 │   └── README.md
-│
 ├── excel/
 │   ├── Olist_Excel_Analytics.xlsx
 │   └── README.md
-│
 ├── powerbi/
-│   ├── Olist_Ecommerce_Analytics.pbix
+│   ├── Olist_Ecommerce_Business_Performance.pbix
 │   ├── screenshots/
-│   │   ├── dashboard_page_1.png
-│   │   └── dashboard_page_2.png
+│   │   ├── dashboard_page_1.png.png
+│   │   └── dashboard_page_2.png.png
 │   └── README.md
-│
 └── docs/
     ├── business_insights.md
     ├── data_dictionary.md
